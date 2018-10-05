@@ -1,6 +1,6 @@
 {
   "theme": {
     "name": "test",
-    "url": "https://raw.githubusercontent.com/tcorral/cdn/gh-pages/stylesheets/stylesheet.css"
+    "url": "https://cdn.rawgit.com/tcorral/cdn/gh-pages/stylesheets/stylesheet.css"
   }
 }
