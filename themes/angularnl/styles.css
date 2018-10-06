@@ -1253,12 +1253,12 @@ app-mission > .scroll-section .header-section h2 span {
     position: relative
 }
 
-.contentWrapper-2tsLMch {
+app-speakers > .contentWrapper {
     background: #1c1b1e;
     padding-bottom: 10vw
 }
 
-.contentWrapper-2tsLMch .noise-1QRQBkC {
+app-speakers > .contentWrapper .noise {
     position: absolute;
     display: inline-block;
     left: 0;
@@ -1270,7 +1270,7 @@ app-mission > .scroll-section .header-section h2 span {
     pointer-events: none
 }
 
-.contentWrapper-2tsLMch .noise-1QRQBkC:after {
+app-speakers > .contentWrapper .noise:after {
     content: "";
     width: 110%;
     height: 110%;
@@ -1282,17 +1282,17 @@ app-mission > .scroll-section .header-section h2 span {
     animation: grain-fiEacw3 .8s 0s steps(1) infinite
 }
 
-.desktop .contentWrapper-2tsLMch .noise-1QRQBkC {
+app-speakers > .contentWrapper .noise {
     display: block
 }
 
-.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe {
+app-speakers > .contentWrapper .innerContentWrapperHeader {
     width: 100%;
     display: -ms-flexbox;
     display: flex
 }
 
-.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .content-2hSigEh {
+app-speakers > .contentWrapper .innerContentWrapperHeader .content {
     display: inline-block;
     padding: 0;
     -ms-flex-preferred-size: 0;
@@ -1301,13 +1301,13 @@ app-mission > .scroll-section .header-section h2 span {
     flex-grow: 1
 }
 
-.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .navigation-ITSK36o {
+app-speakers > .contentWrapper .innerContentWrapperHeader .navigation {
     width: 70%;
     font-size: 0;
     color: #e9e9e9
 }
 
-.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .navigation-ITSK36o .option-3b4h2Hx {
+app-speakers > .contentWrapper .innerContentWrapperHeader .navigation .option {
     display: inline-block;
     text-transform: uppercase;
     width: 50%;
@@ -1318,21 +1318,23 @@ app-mission > .scroll-section .header-section h2 span {
     transition: opacity 1s ease-in-out
 }
 
-.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .navigation-ITSK36o .option-3b4h2Hx div {
+app-speakers > .contentWrapper .innerContentWrapperHeader .navigation .option div {
     display: inline-block!important
 }
 
-.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .navigation-ITSK36o .option-3b4h2Hx.selected-3UzKoeQ,.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .navigation-ITSK36o .option-3b4h2Hx:hover {
+app-speakers > .contentWrapper .innerContentWrapperHeader .navigation .option.selected,
+app-speakers > .contentWrapper .innerContentWrapperHeader .navigation .option:hover {
     opacity: 1
 }
 
 @media (max-width: 768px) {
-    .contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .navigation-ITSK36o,.contentWrapper-2tsLMch .innerContentWrapperHeader-1OLvFKe .navigation-ITSK36o .option-3b4h2Hx {
+    app-speakers > .contentWrapper .innerContentWrapperHeader .navigation,
+    app-speakers > .contentWrapper .innerContentWrapperHeader .navigation .option {
         width:100%
     }
 }
 
-.contentWrapper-2tsLMch .speakerListWrapper-5m4YUc6 {
+app-speakers > .contentWrapper .speakerListWrapper {
     max-width: 1920px;
     margin: 0 auto
 }
