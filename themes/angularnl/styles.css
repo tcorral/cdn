@@ -3147,7 +3147,7 @@ app-header > .contentWrapper .navigation--bDmgwl {
     display: table
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
+app-header > .contentWrapper .navigation--bDmgwl .option {
     font: 12px/1em Muli-Regular;
     text-decoration: none;
     padding: 0 20px;
@@ -3160,7 +3160,7 @@ app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
     cursor: pointer
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH:after {
+app-header > .contentWrapper .navigation--bDmgwl .option:after {
     content: "";
     display: block;
     position: relative;
@@ -3172,14 +3172,14 @@ app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH:after {
     right: -120%;
     transition: all .5s cubic-bezier(0,0,.2,1)
 }
-/* .desktop .contentWrapper-wtsxzhi .navigation--bDmgwl .option-31ZV8jH:hover:after {
+/* .desktop .contentWrapper-wtsxzhi .navigation--bDmgwl .option:hover:after {
     width: 100%;
     left: 0;
     right: 0;
     transition: all .35s cubic-bezier(1,0,0,1)
 } */
-app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH.selected-2sUht59:after,
-app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH:hover:after {
+app-header > .contentWrapper .navigation--bDmgwl .option.selected-2sUht59:after,
+app-header > .contentWrapper .navigation--bDmgwl .option:hover:after {
     width: 100%;
     left: 0;
     right: 0;
@@ -3264,7 +3264,7 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhf
 }
 
 @media (max-width: 768px) {
-    app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
+    app-header > .contentWrapper .navigation--bDmgwl .option {
         display:none
     }
 
@@ -3304,7 +3304,7 @@ app-header > .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover .ticketIco
     opacity: 1
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh {
+app-header > .contentWrapper .navigationList {
     position: absolute;
     display: -ms-flexbox;
     display: flex;
@@ -3317,7 +3317,7 @@ app-header > .contentWrapper .navigationList-iEe5Uyh {
     transform: opacity .35s ease-out
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY {
+app-header > .contentWrapper .navigationList .menuTitle {
     display: block;
     position: absolute;
     transform: rotate(-90deg);
@@ -3327,11 +3327,11 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY {
     color: var(--color-main)
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY span {
+app-header > .contentWrapper .navigationList .menuTitle span {
     font: 18px/1.1em Muli-Regular
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ {
+app-header > .contentWrapper .navigationList .innerNavigationList {
     position: relative;
     display: inline-block;
     -ms-flex-preferred-size: 0;
@@ -3342,12 +3342,12 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJj
     left: 13%
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK {
+app-header > .contentWrapper .navigationList .innerNavigationList .optionWrapper {
     display: block;
     padding: 3% 0
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK .option-31ZV8jH {
+app-header > .contentWrapper .navigationList .innerNavigationList .optionWrapper .option {
     display: inline-block;
     font: 32px/1em Pt-narrowBold;
     color: #1c1b1e;
@@ -3363,23 +3363,23 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJj
     text-transform: uppercase
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:first-child .option-31ZV8jH {
+app-header > .contentWrapper .navigationList .innerNavigationList .optionWrapper:first-child .option {
     transition-delay: .1s
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(2) .option-31ZV8jH {
+app-header > .contentWrapper .navigationList .innerNavigationList .optionWrapper:nth-child(2) .option {
     transition-delay: .2s
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(3) .option-31ZV8jH {
+app-header > .contentWrapper .navigationList .innerNavigationList .optionWrapper:nth-child(3) .option {
     transition-delay: .3s
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(4) .option-31ZV8jH {
+app-header > .contentWrapper .navigationList .innerNavigationList .optionWrapper:nth-child(4) .option {
     transition-delay: .4s
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
+app-header > .contentWrapper .navigationList .socialWrapper {
     position: relative;
     width: 100%;
     bottom: -50%;
@@ -3393,20 +3393,20 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
     transition-delay: .4s
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .menuTitle-3UqMSIY {
+app-header > .contentWrapper .navigationList .socialWrapper .menuTitle {
     top: 9.8vh
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 {
     position: relative
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg {
     position: relative;
     width: 100%
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -3416,7 +3416,7 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inn
     transition-delay: .7s
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG {
     position: relative;
     width: 240px;
     height: 80px;
@@ -3429,7 +3429,7 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inn
     color: #fff
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG span {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG span {
     display: block;
     text-align: left;
     padding: 0 30px;
@@ -3438,7 +3438,7 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inn
     box-sizing: border-box
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG .ticketIcon-2IdhJao {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG .ticketIcon-2IdhJao {
     position: absolute;
     width: 150px;
     height: 80px;
@@ -3450,7 +3450,7 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inn
     padding-left: 0
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP {
     position: relative;
     display: inline-block;
     left: 50%;
@@ -3460,12 +3460,12 @@ app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inn
     grid-template-columns: 50% 50%
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a {
     display: inline-block;
     margin: 0 auto
 }
 
-app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a .icon-2ZObslW {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a .icon-2ZObslW {
     position: relative;
     width: 25px;
     display: inline-block;
@@ -3564,20 +3564,20 @@ app-header > .contentWrapper.menuVisible-15guaqL:before {
     height: 100%
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList {
     visibility: visible;
     opacity: 1
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK .option-31ZV8jH {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList .innerNavigationList .optionWrapper .option {
     background-position-x: 0
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper {
     bottom: 0
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
     width: 100%
 }
 
