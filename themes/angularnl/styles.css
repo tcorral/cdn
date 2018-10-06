@@ -3510,7 +3510,7 @@ app-header > .contentWrapper .ticketButton:after {
 }
 
 app-header > .contentWrapper .ticketButton.show {
-    opacity: 1
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -3521,7 +3521,8 @@ app-header > .contentWrapper .ticketButton.show {
         font: 10px/1em Muli-Regular;
         width: 120px;
         line-height: 40px;
-        margin: 0 55px
+        margin: 0 55px;
+        background-color: #d34f48;
     }
 }
 
