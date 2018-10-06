@@ -81,3 +81,21 @@ body {
     top: 16px;
     content: "";
 }
+app-header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+}
+app-header {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #000;
+    opacity: 0;
+    width: 100%;
+    padding: 40px 0;
+    z-index: -2;
+    transition: opacity .35s ease-out;
+}
