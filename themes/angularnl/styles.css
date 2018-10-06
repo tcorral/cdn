@@ -201,70 +201,70 @@ canvas {
 
 @font-face {
     font-family: Muli-Light;
-    src: url(/version/1538149241071/font/Muli-Light.5e3e75f.woff2) format("woff2"),url(/version/1538149241071/font/Muli-Light.e36c105.woff) format("woff");
+    src: url(fonts/Muli-Light.5e3e75f.woff2) format("woff2"),url(fonts/Muli-Light.e36c105.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Muli-SemiBold;
-    src: url(/version/1538149241071/font/Muli-SemiBold.df9202a.woff2) format("woff2"),url(/version/1538149241071/font/Muli-SemiBold.ebedc7d.woff) format("woff");
+    src: url(fonts/Muli-SemiBold.df9202a.woff2) format("woff2"),url(fonts/Muli-SemiBold.ebedc7d.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Muli-Bold;
-    src: url(/version/1538149241071/font/Muli-Bold.3c1b88e.woff2) format("woff2"),url(/version/1538149241071/font/Muli-Bold.c841541.woff) format("woff");
+    src: url(fonts/Muli-Bold.3c1b88e.woff2) format("woff2"),url(fonts/Muli-Bold.c841541.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Muli-ExtraBold;
-    src: url(/version/1538149241071/font/Muli-ExtraBold.c24346a.woff2) format("woff2"),url(/version/1538149241071/font/Muli-ExtraBold.11f49d5.woff) format("woff");
+    src: url(fonts/Muli-ExtraBold.c24346a.woff2) format("woff2"),url(fonts/Muli-ExtraBold.11f49d5.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Muli-Regular;
-    src: url(/version/1538149241071/font/Muli-Regular.1ba8f17.woff2) format("woff2"),url(/version/1538149241071/font/Muli-Regular.7dd038a.woff) format("woff");
+    src: url(fonts/Muli-Regular.1ba8f17.woff2) format("woff2"),url(fonts/Muli-Regular.7dd038a.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Pt-narrowBold;
-    src: url(/version/1538149241071/font/PTSans-NarrowBold.8aeafec.woff2) format("woff2"),url(/version/1538149241071/font/PTSans-NarrowBold.415a37c.woff) format("woff");
+    src: url(fonts/PTSans-NarrowBold.8aeafec.woff2) format("woff2"),url(fonts/PTSans-NarrowBold.415a37c.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: LeagueGothic-Regular;
-    src: url(/version/1538149241071/font/Anton-Regular.93fc555.woff2) format("woff2"),url(/version/1538149241071/font/Anton-Regular.05ec233.woff) format("woff");
+    src: url(fonts/Anton-Regular.93fc555.woff2) format("woff2"),url(fonts/Anton-Regular.05ec233.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: BebasNeueRegular;
-    src: url(/version/1538149241071/font/BebasNeueRegular.06068c3.woff2) format("woff2"),url(/version/1538149241071/font/BebasNeueRegular.06aaf06.woff) format("woff");
+    src: url(fonts/BebasNeueRegular.06068c3.woff2) format("woff2"),url(fonts/BebasNeueRegular.06aaf06.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: BebasNeueBold;
-    src: url(/version/1538149241071/font/BebasNeueBold.3eafc72.woff2) format("woff2"),url(/version/1538149241071/font/BebasNeueBold.a31dd45.woff) format("woff");
+    src: url(fonts/BebasNeueBold.3eafc72.woff2) format("woff2"),url(fonts/BebasNeueBold.a31dd45.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Pt-narrow;
-    src: url(/version/1538149241071/font/PTSans-Narrow.465a739.woff2) format("woff2"),url(/version/1538149241071/font/PTSans-Narrow.8b448d1.woff) format("woff");
+    src: url(fonts/PTSans-Narrow.465a739.woff2) format("woff2"),url(fonts/PTSans-Narrow.8b448d1.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -935,7 +935,7 @@ p {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(/version/1538149241071/image/amsterdam_fallback.c6daccc.jpg);
+    background: url(images/amsterdam_fallback.c6daccc.jpg);
     background-size: cover;
     background-position: 50%;
     top: 0
@@ -951,11 +951,11 @@ p {
 }
 
 .contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:first-child {
-    background-image: url(/version/1538149241071/image/gradientsteps-28.d33663f.png)
+    background-image: url(images/gradientsteps-28.d33663f.png)
 }
 
 .contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(2) {
-    background-image: url(/version/1538149241071/image/gradientsteps-29.f182db2.png);
+    background-image: url(images/gradientsteps-29.f182db2.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -964,7 +964,7 @@ p {
 }
 
 .contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(3) {
-    background-image: url(/version/1538149241071/image/gradientsteps-30.2a4ab43.png);
+    background-image: url(images/gradientsteps-30.2a4ab43.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -973,7 +973,7 @@ p {
 }
 
 .contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(4) {
-    background-image: url(/version/1538149241071/image/gradientsteps-31.3a2a1d1.png);
+    background-image: url(images/gradientsteps-31.3a2a1d1.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -982,7 +982,7 @@ p {
 }
 
 .contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(5) {
-    background-image: url(/version/1538149241071/image/gradientsteps-32.434c373.png);
+    background-image: url(images/gradientsteps-32.434c373.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -1252,7 +1252,7 @@ p {
     top: -5%;
     left: -5%;
     display: block;
-    background: url(/version/1538149241071/image/noise.00407a1.png) 50%;
+    background: url(images/noise.00407a1.png) 50%;
     animation: grain-fiEacw3 .8s 0s steps(1) infinite
 }
 
