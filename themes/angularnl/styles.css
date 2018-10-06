@@ -1144,6 +1144,10 @@ app-mission > .contentWrapper .copyWrapper .readMoreCta:hover .shape {
     stroke-dashoffset: 0
 }
 
+app-mission > .contentWrapper .header-image {
+    background-image: url('images/headers/mission.png');
+}
+
 @media (max-width: 768px) {
     app-mission > .contentWrapper .copyWrapper .content {
         padding:4vw 0 20%;
