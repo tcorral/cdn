@@ -615,13 +615,13 @@ app-landing > .contentWrapper {
     opacity: 0
 }
 
-app-landing > .contentWrapper .background-1xWeSmv {
+app-landing > .contentWrapper .background {
     position: absolute;
     width: 100%;
     height: 100%
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy {
     position: absolute;
     padding: 0;
     top: 50%;
@@ -630,7 +630,7 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
     box-sizing: border-box
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .header-1r1obWW {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .header {
     text-align: center;
     font: 1.5vw/1.1em Muli-Light;
     color: #fff;
@@ -640,12 +640,12 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
 }
 
 @media (max-width: 768px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .header-1r1obWW {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .header {
         font:18px/1.1em Muli-Light
     }
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .infoLocationDate-2_zelwG {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .infoLocationDate {
     position: relative;
     text-align: center;
     padding: 3% 0;
@@ -659,25 +659,25 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
 }
 
 @media (max-width: 768px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .infoLocationDate-2_zelwG {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .infoLocationDate {
         padding:2% 0 15%;
         text-align: center;
         font: 16px/1.1em Muli-Regular;
         letter-spacing: 2px
     }
 
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .infoLocationDate-2_zelwG .column-224LXih {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .infoLocationDate .column {
         display: inline-block;
         padding-right: 20px
     }
 
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .infoLocationDate-2_zelwG .column-224LXih .title-31iAy-b {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .infoLocationDate .column .title {
         text-align: center;
         font: 14px/1.1em Muli-Light;
         color: #1c1b1e
     }
 
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .infoLocationDate-2_zelwG .column-224LXih span {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .infoLocationDate .column span {
         display: block;
         padding: 5px 0;
         color: #fff;
@@ -686,12 +686,12 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
 }
 
 @media (max-width: 320px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .infoLocationDate-2_zelwG {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .infoLocationDate {
         font:14px/1.2em Muli-Regular
     }
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .mainTitle-3lpHk31 {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .mainTitle {
     position: relative;
     display: inline-block;
     left: 50%;
@@ -699,7 +699,7 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
     text-align: center
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .mainTitle-3lpHk31 .title-31iAy-b {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .mainTitle .title {
     display: inline-block;
     font: 11vw/1.1em LeagueGothic-Regular;
     color: #fff;
@@ -707,18 +707,18 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
 }
 
 @media (max-width: 480px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .mainTitle-3lpHk31 .title-31iAy-b {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .mainTitle .title {
         width:100%;
         font: 60px/1.1em LeagueGothic-Regular
     }
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .mainTitle-3lpHk31 .title-31iAy-b.schedule,
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .mainTitle-3lpHk31 .title-31iAy-b.sponsors {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .mainTitle .title.schedule,
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .mainTitle .title.sponsors {
     width: 100%
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .city-3GtZvve {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .city {
     position: relative;
     display: inline-block;
     font: 1.5vw/1.3em Muli-Light;
@@ -733,7 +733,7 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
 }
 
 @media (max-width: 768px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .city-3GtZvve {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .city {
         text-align:center;
         position: relative;
         display: block;
@@ -744,13 +744,13 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
 }
 
 @media (max-width: 320px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .city-3GtZvve {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .city {
         font:14px/1.2em Muli-Regular;
         padding: 15% 0 5%
     }
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .extraConfCtaMobile-hwIrhLl {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .extraConfCtaMobile {
     position: relative;
     font: 22px/1.5em Pt-narrowBold;
     color: var(--color-main);
@@ -760,19 +760,19 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
     display: none
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .extraConfCtaMobile-hwIrhLl a {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .extraConfCtaMobile a {
     color: inherit;
     text-decoration: none
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .extraConfCtaMobile-hwIrhLl .cta-3t6UeU7 {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .extraConfCtaMobile .cta {
     display: block;
     margin-top: 2%;
     color: #fff;
     font: 16px/1.5em Muli-ExtraBold
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .extraConfCtaMobile-hwIrhLl .cta-3t6UeU7:after {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .extraConfCtaMobile .cta:after {
     content: "";
     display: block;
     position: absolute;
@@ -784,17 +784,17 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
 }
 
 @media (max-width: 768px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 .extraConfCtaMobile-hwIrhLl {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy .extraConfCtaMobile {
         display:block
     }
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0.schedule {
+app-landing > .contentWrapper .innerContentWrapper .innerContentCopy.schedule {
     top: 50%
 }
 
 @media (max-width: 768px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3RrxJs0 {
+    app-landing > .contentWrapper .innerContentWrapper .innerContentCopy {
         width:100%;
         padding: 0;
         top: 60%!important;
@@ -803,7 +803,7 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .innerContentCopy-3Rr
     }
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM1gMi {
+app-landing > .contentWrapper .innerContentWrapper .scrollCtaWrapper {
     height: 18px;
     overflow: hidden;
     position: absolute;
@@ -812,7 +812,7 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM
     transform: translateX(-50%)
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM1gMi .scrollCta-17X6Z3o {
+app-landing > .contentWrapper .innerContentWrapper .scrollCtaWrapper .scrollCta {
     position: relative;
     color: #fff;
     font: 18px/1.1em Muli-Regular;
@@ -820,23 +820,23 @@ app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM
     text-align: center
 }
 
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM1gMi.schedule .scrollCta-17X6Z3o,
-app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM1gMi.sponsors .scrollCta-17X6Z3o {
+app-landing > .contentWrapper .innerContentWrapper .scrollCtaWrapper.schedule .scrollCta,
+app-landing > .contentWrapper .innerContentWrapper .scrollCtaWrapper.sponsors .scrollCta {
     color: #fff
 }
 
 @media (max-width: 768px) {
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM1gMi {
+    app-landing > .contentWrapper .innerContentWrapper .scrollCtaWrapper {
         text-align:center;
         bottom: 80px
     }
 
-    app-landing > .contentWrapper .innerContentWrapper-28qIZpR .scrollCtaWrapper-1EM1gMi .scrollCta-17X6Z3o {
+    app-landing > .contentWrapper .innerContentWrapper .scrollCtaWrapper .scrollCta {
         color: #fff
     }
 }
 
-app-landing > .contentWrapper .extraConfCta-3wsFiA4 {
+app-landing > .contentWrapper .extraConfCta {
     position: absolute;
     bottom: 0;
     font: 16px/1.5em Muli-SemiBold;
@@ -845,19 +845,19 @@ app-landing > .contentWrapper .extraConfCta-3wsFiA4 {
     text-transform: uppercase
 }
 
-app-landing > .contentWrapper .extraConfCta-3wsFiA4 a {
+app-landing > .contentWrapper .extraConfCta a {
     display: block;
     color: inherit;
     text-decoration: none;
     transition: color .5s ease-in-out
 }
 
-app-landing > .contentWrapper .extraConfCta-3wsFiA4 a:hover,
-app-landing > .contentWrapper  .extraConfCta-3wsFiA4 span {
+app-landing > .contentWrapper .extraConfCta a:hover,
+app-landing > .contentWrapper  .extraConfCta span {
     color: var(--color-main)
 }
 
-app-landing > .contentWrapper .extraConfCta-3wsFiA4 .cta-3t6UeU7 {
+app-landing > .contentWrapper .extraConfCta .cta {
     font: 16px/1.1em Muli-Regular;
     cursor: pointer;
     color: #fff;
@@ -865,18 +865,18 @@ app-landing > .contentWrapper .extraConfCta-3wsFiA4 .cta-3t6UeU7 {
     transition: opacity .5s ease-in-out
 }
 
-app-landing > .contentWrapper .extraConfCta-3wsFiA4 .cta-3t6UeU7 b {
+app-landing > .contentWrapper .extraConfCta .cta b {
     text-transform: uppercase;
     color: var(--color-main) FrontendLove
 }
 
-app-landing > .contentWrapper .extraConfCta-3wsFiA4 .cta-3t6UeU7:hover {
+app-landing > .contentWrapper .extraConfCta .cta:hover {
     color: #fff;
     opacity: .7
 }
 
 @media (max-width: 768px) {
-    app-landing > .contentWrapper .extraConfCta-3wsFiA4 {
+    app-landing > .contentWrapper .extraConfCta {
         display:none
     }
 }
