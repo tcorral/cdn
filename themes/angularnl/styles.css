@@ -3138,7 +3138,7 @@ app-header > .contentWrapper .leftMenu .dropdown:hover .dropdownContent {
     max-height: 350px
 }
 
-app-header > .contentWrapper .navigation--bDmgwl {
+app-header > .contentWrapper .navigation {
     position: absolute;
     right: 0;
     padding: 20px 0;
@@ -3147,7 +3147,7 @@ app-header > .contentWrapper .navigation--bDmgwl {
     display: table
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .option {
+app-header > .contentWrapper .navigation .option {
     font: 12px/1em Muli-Regular;
     text-decoration: none;
     padding: 0 20px;
@@ -3160,7 +3160,7 @@ app-header > .contentWrapper .navigation--bDmgwl .option {
     cursor: pointer
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .option:after {
+app-header > .contentWrapper .navigation .option:after {
     content: "";
     display: block;
     position: relative;
@@ -3172,22 +3172,22 @@ app-header > .contentWrapper .navigation--bDmgwl .option:after {
     right: -120%;
     transition: all .5s cubic-bezier(0,0,.2,1)
 }
-/* .desktop .contentWrapper-wtsxzhi .navigation--bDmgwl .option:hover:after {
+/* .desktop .contentWrapper-wtsxzhi .navigation .option:hover:after {
     width: 100%;
     left: 0;
     right: 0;
     transition: all .35s cubic-bezier(1,0,0,1)
 } */
-app-header > .contentWrapper .navigation--bDmgwl .option.selected:after,
-app-header > .contentWrapper .navigation--bDmgwl .option:hover:after {
+app-header > .contentWrapper .navigation .option.selected:after,
+app-header > .contentWrapper .navigation .option:hover:after {
     width: 100%;
     left: 0;
     right: 0;
     transition: all .35s cubic-bezier(1,0,0,1)
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu {
+app-header > .contentWrapper .navigation .burgerIcon,
+app-header > .contentWrapper .navigation .mobileMenu {
     display: none;
     position: absolute;
     margin: 0 auto;
@@ -3199,19 +3199,19 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu {
     top: 100%
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:before {
+app-header > .contentWrapper .navigation .burgerIcon:after,
+app-header > .contentWrapper .navigation .burgerIcon:before,
+app-header > .contentWrapper .navigation .mobileMenu:after,
+app-header > .contentWrapper .navigation .mobileMenu:before {
     content: ""
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon span,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu span {
+app-header > .contentWrapper .navigation .burgerIcon:after,
+app-header > .contentWrapper .navigation .burgerIcon:before,
+app-header > .contentWrapper .navigation .burgerIcon span,
+app-header > .contentWrapper .navigation .mobileMenu:after,
+app-header > .contentWrapper .navigation .mobileMenu:before,
+app-header > .contentWrapper .navigation .mobileMenu span {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
@@ -3222,25 +3222,25 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu span {
     border-radius: 7px
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:before {
+app-header > .contentWrapper .navigation .burgerIcon:before,
+app-header > .contentWrapper .navigation .mobileMenu:before {
     top: 0
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon span,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu span {
+app-header > .contentWrapper .navigation .burgerIcon span,
+app-header > .contentWrapper .navigation .mobileMenu span {
     top: 8px
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:after {
+app-header > .contentWrapper .navigation .burgerIcon:after,
+app-header > .contentWrapper .navigation .mobileMenu:after {
     top: 16px
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active,
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active:before {
+app-header > .contentWrapper .navigation .burgerIcon.active,
+app-header > .contentWrapper .navigation .burgerIcon.active:before,
+app-header > .contentWrapper .navigation .mobileMenu.active,
+app-header > .contentWrapper .navigation .mobileMenu.active:before {
     border-top: 4px solid #1c1b1e;
     top: 8px;
     -webkit-backface-visibility: hidden;
@@ -3248,27 +3248,27 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active:before {
     transition: .3s
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active:before {
+app-header > .contentWrapper .navigation .burgerIcon.active:before,
+app-header > .contentWrapper .navigation .mobileMenu.active:before {
     transform: rotate(45deg)
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active span,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active span {
+app-header > .contentWrapper .navigation .burgerIcon.active span,
+app-header > .contentWrapper .navigation .mobileMenu.active span {
     opacity: 0
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active {
+app-header > .contentWrapper .navigation .burgerIcon.active,
+app-header > .contentWrapper .navigation .mobileMenu.active {
     transform: rotate(-45deg)
 }
 
 @media (max-width: 768px) {
-    app-header > .contentWrapper .navigation--bDmgwl .option {
+    app-header > .contentWrapper .navigation .option {
         display:none
     }
 
-    app-header > .contentWrapper .navigation--bDmgwl .mobileMenu {
+    app-header > .contentWrapper .navigation .mobileMenu {
         display: inline-block
     }
 }
@@ -3450,7 +3450,7 @@ app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper 
     padding-left: 0
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList-3sAXafP {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList {
     position: relative;
     display: inline-block;
     left: 50%;
@@ -3460,12 +3460,12 @@ app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper 
     grid-template-columns: 50% 50%
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList-3sAXafP a {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList a {
     display: inline-block;
     margin: 0 auto
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList-3sAXafP a .icon-2ZObslW {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList a .icon {
     position: relative;
     width: 25px;
     display: inline-block;
@@ -3554,46 +3554,46 @@ app-header > .contentWrapper .ticketButton.show {
     }
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL {
+app-header > .contentWrapper.menuVisible {
     height: 100%
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL:before {
+app-header > .contentWrapper.menuVisible:before {
     background: #f6f6f6;
     opacity: 1;
     height: 100%
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList {
+app-header > .contentWrapper.menuVisible .navigationList {
     visibility: visible;
     opacity: 1
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList .innerNavigationList .optionWrapper .option {
+app-header > .contentWrapper.menuVisible .navigationList .innerNavigationList .optionWrapper .option {
     background-position-x: 0
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper {
+app-header > .contentWrapper.menuVisible .navigationList .socialWrapper {
     bottom: 0
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer .ticketButtonWrapper {
+app-header > .contentWrapper.menuVisible .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer .ticketButtonWrapper {
     width: 100%
 }
 
 @media (max-width: 1023px) {
-    app-header > .contentWrapper .logos-3AHXqkR {
+    app-header > .contentWrapper .logos {
         position:absolute;
         margin: 1.4em 1rem
     }
 
-    app-header > .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
-    app-header > .contentWrapper .logos-3AHXqkR .logofl {
+    app-header > .contentWrapper .logos .logo,
+    app-header > .contentWrapper .logos .logofl {
         width: 40px;
         height: 45px
     }
 
-    app-header > .contentWrapper .logos-3AHXqkR .tripleX-3LHHJaf {
+    app-header > .contentWrapper .logos .tripleX {
         height: 35px
     }
 }
@@ -3611,23 +3611,23 @@ app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper 
         transition: opacity .35s ease-out
     }
 
-    app-header > .contentWrapper .navigation--bDmgwl {
+    app-header > .contentWrapper .navigation {
         padding: 10px 0
     }
 
-    app-header > .contentWrapper .logos-3AHXqkR {
+    app-header > .contentWrapper .logos {
         position: absolute;
         margin: 1em 1rem
     }
 
-    app-header > .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
-    app-header > .contentWrapper .logos-3AHXqkR .logofl {
+    app-header > .contentWrapper .logos .logo,
+    app-header > .contentWrapper .logos .logofl {
         width: 40px;
         height: 45px;
         display: none
     }
 
-    app-header > .contentWrapper .logos-3AHXqkR .tripleX-3LHHJaf {
+    app-header > .contentWrapper .logos .tripleX {
         height: 35px
     }
 }
