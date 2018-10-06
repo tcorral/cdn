@@ -3147,17 +3147,20 @@ app-header > .contentWrapper .navigation {
     display: table
 }
 
-app-header > .contentWrapper .navigation .option {
-    font: 12px/1em Muli-Regular;
-    text-decoration: none;
+app-header > .contentWrapper .navigation .option{
     padding: 0 20px;
     box-sizing: border-box;
     position: relative;
-    color: #fff;
     display: table-cell;
     vertical-align: middle;
     top: 2.5px;
     cursor: pointer
+}
+
+app-header > .contentWrapper .navigation .option a{
+    font: 12px/1em Muli-Regular;
+    text-decoration: none;
+    color: #fff;
 }
 
 app-header > .contentWrapper .navigation .option:after {
@@ -3612,7 +3615,8 @@ app-header > .contentWrapper.menuVisible .navigationList .socialWrapper .innerSo
     }
 
     app-header > .contentWrapper .navigation {
-        padding: 10px 0
+        padding: 10px 0;
+        margin: 0;
     }
 
     app-header > .contentWrapper .logos {
