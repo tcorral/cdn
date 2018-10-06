@@ -1072,6 +1072,10 @@ app-mission > .contentWrapper .copyWrapper {
     flex-grow: 1
 }
 
+app-mission > .contentWrapper.show .copyWrapper .content {
+    opacity: 1;
+}
+
 app-mission > .contentWrapper .copyWrapper .content {
     padding: 0 0 6vw;
     margin: 0;
