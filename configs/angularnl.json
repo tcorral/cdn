@@ -8,7 +8,7 @@
     "year": "2019",
     "background": {
       "type": "video",
-      "url": "content/landing-video.mp4",
+      "url": "http://tcorral.github.io/cdn/themes/angularnl/video/landing-video.mp4",
       "logo": "test"
     },
     "contact": {
