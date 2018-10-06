@@ -4,6 +4,9 @@
 body {
     display: block;
 }
+.logoMain {
+    margin: 0 0 0 70px;
+}
 .logoMain .logo {
     margin: 0;
     width: 50px;
