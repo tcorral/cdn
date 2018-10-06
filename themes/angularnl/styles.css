@@ -3460,7 +3460,7 @@ app-header > .contentWrapper .ticketButton {
     opacity: 0;
     transition: all .35s ease-out;
     cursor: pointer;
-    color: inherit
+    color: inherit;
 }
 
 app-header > .contentWrapper .ticketButton span {
@@ -3511,6 +3511,7 @@ app-header > .contentWrapper .ticketButton:after {
 
 app-header > .contentWrapper .ticketButton.show {
     opacity: 1;
+    background-color: #d34f48;
 }
 
 @media (max-width: 768px) {
@@ -3522,7 +3523,6 @@ app-header > .contentWrapper .ticketButton.show {
         width: 120px;
         line-height: 40px;
         margin: 0 55px;
-        background-color: #d34f48;
     }
 }
 
