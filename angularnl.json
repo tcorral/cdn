@@ -14,6 +14,23 @@
       "url": "https://www.eventbrite.co.uk/e/angular-nl-2019-tickets-49948041938"
     }
   },
+  "other_events": [
+    {
+      "label": "Frontend Love Conference",
+      "className": "logofl",
+      "url": "https://www.frontenddeveloperlove.com/"
+    },
+    {
+      "label": "Vue.js Amsterdam Conference",
+      "className": "logoVuejs",
+      "url": "https://www.vuejs.amsterdam"
+    },
+    {
+      "label": "Vue.Js Road Trip",
+      "className": "roadTrip",
+      "url": "https://www.vuejsroadtrip.com/"
+    }
+  ],
   "wp": {
     "protocol": "https://",
     "domain": "passionatepeople.io",
