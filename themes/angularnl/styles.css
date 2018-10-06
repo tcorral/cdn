@@ -3144,7 +3144,8 @@ app-header > .contentWrapper .navigation {
     padding: 20px 0;
     text-transform: uppercase;
     color: #fff;
-    display: table
+    display: table;
+    margin: 0;
 }
 
 app-header > .contentWrapper .navigation .option{
