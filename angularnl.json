@@ -1,0 +1,105 @@
+{
+  "event": {
+    "name": "Angular NL",
+    "city": "AMSTERDAM",
+    "date": "8TH MARCH",
+    "year": "2019",
+    "contact": {
+      "label": "Contact us",
+      "url": "mailto:info@frontenddeveloperlove.com"
+    },
+    "tickets": {
+      "label": "GET TICKETS",
+      "url": "https://www.eventbrite.co.uk/e/angular-nl-2019-tickets-49948041938"
+    }
+  },
+  "wp": "https://passionatepeople.io/wp/wp-json/wp/v2/posts?categories=",
+  "categories": {
+    "mission": "32",
+    "speakers": "33",
+    "venue": "",
+    "getting_there": "",
+    "sponsors": {
+      "gold": "",
+      "silver": "",
+      "bronze": "",
+      "partners": ""
+    },
+    "sponshorship": {
+      "event": "",
+      "packages": {
+        "platinum": "",
+        "gold": "",
+        "silver": "",
+        "bronze": "",
+        "partnership": ""
+      }, 
+    }
+  },
+  "footer": {
+    "links": {
+      "organiser": {
+        "label": "FrontendDeveloperLove.com",
+        "url": "http://frontenddeveloperlove.com/"
+      },
+      "code_of_conduct": {
+        "label": "Code of conduct",
+        "url": "http://confcodeofconduct.com/"
+      },
+      "terms_and_conditions": {
+        "label": "Terms & Conditions",
+        "url": "/terms"
+      },
+      "our_brands": [
+        {
+          "label": "Vue.js roadtrip",
+          "url": "https://www.vuejsroadtrip.com/"
+        },
+        {
+          "label": "Frontend Love",
+          "url": "https://www.frontenddeveloperlove.com/"
+        },
+        {
+          "label": "Passionate People",
+          "url": "http://passionatepeople.io/"
+        },
+        {
+          "label": "Job opportunities",
+          "url": "/jobs"
+        }
+      ],
+      "contact": [
+        {
+          "label": "info@frontenddeveloperlove.com",
+          "url": "mailto:info@frontenddeveloperlove.com"
+        },
+        {
+          "label": "Contact the team",
+          "url": "/about"
+        }
+      ],
+      "follow_us": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/frontendlove"
+        },
+        {
+          "label": "Twitter",
+          "url": "https://www.twitter.com/angularnl"
+        },
+        {
+          "label": "Youtube",
+          "url": "https://www.youtube.com/channel/UC1nBp6ouBB1o5P8YvPznPOw"
+        },
+        {
+          "label": "Medium",
+          "url": "https://medium.com/@frontendlove"
+        }
+      ]
+    }
+  },
+  "theme": {
+    "name": "test",
+    "url": "https://cdn.rawgit.com/tcorral/cdn/gh-pages/styles.css"
+  }
+}
