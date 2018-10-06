@@ -1262,6 +1262,10 @@ app-speakers > .scroll-section .header-section h2 span {
     background-image: url(images/headers/speakers.png);
 }
 
+app-speakers > .scroll-section .header-section h2 {
+    bottom: auto;
+}
+
 app-speakers > .contentWrapper .noise {
     position: absolute;
     display: inline-block;
