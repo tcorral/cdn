@@ -2886,7 +2886,8 @@ app-header > .contentWrapper .burgerIcon.active:before{
 
 app-header > .contentWrapper .burgerIcon.active:after {
     border-top: 4px solid #1c1b1e;
-    top: 16px;
+    top: 8px;
+
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: .3s
@@ -3233,6 +3234,11 @@ app-header > .contentWrapper .navigation .mobileMenu.active:before {
 app-header > .contentWrapper .navigation .burgerIcon.active:before,
 app-header > .contentWrapper .navigation .mobileMenu.active:before {
     transform: rotate(45deg)
+}
+
+app-header > .contentWrapper .navigation .burgerIcon.active:after,
+app-header > .contentWrapper .navigation .mobileMenu.active:after {
+    transform: rotate(-45deg)
 }
 
 app-header > .contentWrapper .navigation .burgerIcon.active span,
