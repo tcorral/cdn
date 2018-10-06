@@ -1258,6 +1258,10 @@ app-speakers > .contentWrapper {
     padding-bottom: 10vw
 }
 
+app-speakers > .scroll-section .header-section h2 span {
+    background-image: url(images/headers/speakers.png);
+}
+
 app-speakers > .contentWrapper .noise {
     position: absolute;
     display: inline-block;
