@@ -22,7 +22,8 @@ app-header {
     width: 100%;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
-app-header {
+
+app-header > .contentWrapper {
     content: "";
     display: block;
     position: absolute;
@@ -32,6 +33,10 @@ app-header {
     padding: 40px 0;
     z-index: -2;
     transition: opacity .35s ease-out;
+}
+
+app-header > .contentWrapper.show {
+    opacity: 1;
 }
 
 .logoMain {
