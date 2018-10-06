@@ -2876,18 +2876,10 @@ app-header > .contentWrapper .burgerIcon:after {
     top: 16px;
 }
 
-app-header > .contentWrapper .burgerIcon.active:before{
-    border-top: 4px solid #1c1b1e;
-    top: 8px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transition: .3s
-}
-
+app-header > .contentWrapper .burgerIcon.active:before,
 app-header > .contentWrapper .burgerIcon.active:after {
     border-top: 4px solid #1c1b1e;
     top: 8px;
-
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: .3s
@@ -3244,11 +3236,6 @@ app-header > .contentWrapper .navigation .mobileMenu.active:after {
 app-header > .contentWrapper .navigation .burgerIcon.active span,
 app-header > .contentWrapper .navigation .mobileMenu.active span {
     opacity: 0
-}
-
-app-header > .contentWrapper .navigation .burgerIcon.active,
-app-header > .contentWrapper .navigation .mobileMenu.active {
-    transform: rotate(-45deg)
 }
 
 @media (max-width: 768px) {
