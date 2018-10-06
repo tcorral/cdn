@@ -3223,13 +3223,13 @@ app-header > .contentWrapper .navigation .mobileMenu.active:before {
     transition: .3s
 }
 
-app-header > .contentWrapper .navigation .burgerIcon.active:before,
-app-header > .contentWrapper .navigation .mobileMenu.active:before {
+app-header > .contentWrapper .leftMenu .burgerIcon.active:before,
+app-header > .contentWrapper .leftMenu .mobileMenu.active:before {
     transform: rotate(45deg)
 }
 
-app-header > .contentWrapper .navigation .burgerIcon.active:after,
-app-header > .contentWrapper .navigation .mobileMenu.active:after {
+app-header > .contentWrapper .leftMenu .burgerIcon.active:after,
+app-header > .contentWrapper .leftMenu .mobileMenu.active:after {
     transform: rotate(-45deg)
 }
 
