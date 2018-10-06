@@ -1,3 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 body {
-  background: red;
+    display: block;
+}
+.logoMain .logo {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABJCAYAAACTrxClAAAORklEQ…6fdVGo+AYkByWdkt3A3AsVpmIDE+8dfMO6gXkUw5kfctj/AYJm1fqYHXqNAAAAAElFTkSuQmCC);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .25s cubic-bezier(0,0,.2,1);
 }
