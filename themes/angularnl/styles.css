@@ -2873,8 +2873,8 @@ app-header > .contentWrapper .burgerIcon:after {
     top: 16px
 }
 
-app-header > .contentWrapper .burgerIcon.active-3bhfT-P:after,
-app-header > .contentWrapper .burgerIcon.active-3bhfT-P:before {
+app-header > .contentWrapper .burgerIcon.active,
+app-header > .contentWrapper .burgerIcon.active:before {
     border-top: 4px solid #1c1b1e;
     top: 8px;
     -webkit-backface-visibility: hidden;
@@ -2882,15 +2882,15 @@ app-header > .contentWrapper .burgerIcon.active-3bhfT-P:before {
     transition: .3s
 }
 
-app-header > .contentWrapper .burgerIcon.active-3bhfT-P:before {
+app-header > .contentWrapper .burgerIcon.active:before {
     transform: rotate(45deg)
 }
 
-app-header > .contentWrapper .burgerIcon.active-3bhfT-P span {
+app-header > .contentWrapper .burgerIcon.active span {
     opacity: 0
 }
 
-app-header > .contentWrapper .burgerIcon.active-3bhfT-P:after {
+app-header > .contentWrapper .burgerIcon.active {
     transform: rotate(-45deg)
 }
 
@@ -2970,7 +2970,7 @@ app-header > .contentWrapper .leftMenu .dropdown:before {
     background: #fff
 }
 
-app-header > .contentWrapper .leftMenu .dropdown.show-EsTl3vS {
+app-header > .contentWrapper .leftMenu .dropdown.show {
     height: 350px
 }
 
@@ -3032,7 +3032,7 @@ app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure {
     vertical-align: middle
 }
 
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logofl-1hfuCa0 {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logofl {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3042,15 +3042,15 @@ app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logof
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.logofl-1hfuCa0:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.logofl:hover {
     transform: scale(.9)
 } */
 
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logofl-1hfuCa0:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logofl:hover {
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logoVuejs-388gfXg {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logoVuejs {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3060,10 +3060,10 @@ app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logoV
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.logoVuejs-388gfXg:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.logoVuejs:hover {
     transform: scale(.9)
 } */
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logoVuejs-388gfXg:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logoVuejs:hover {
     transform: scale(.9)
 }
 
@@ -3084,34 +3084,34 @@ app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logo:
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.roadTrip-1kpIHHI {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.roadTrip {
     margin: 0;
     width: 50px;
     height: 50px;
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.roadTrip-1kpIHHI:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.roadTrip:hover {
     transform: scale(.9)
 } */
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.roadTrip-1kpIHHI:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.roadTrip:hover {
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3 {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual {
     width: 40px;
     padding: 0 2px;
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3 svg path {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual svg path {
     fill: #3b6aff
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a .countryVisual:hover {
     transform: scale(.9)
 } */
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual:hover {
     transform: scale(.9)
 }
 
@@ -3123,7 +3123,7 @@ app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a:hover span {
     opacity: 1
 }
 
-app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a.selected-2sUht59 span {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a.selected span {
     text-decoration: underline;
     opacity: 1
 }
@@ -3178,7 +3178,7 @@ app-header > .contentWrapper .navigation--bDmgwl .option:after {
     right: 0;
     transition: all .35s cubic-bezier(1,0,0,1)
 } */
-app-header > .contentWrapper .navigation--bDmgwl .option.selected-2sUht59:after,
+app-header > .contentWrapper .navigation--bDmgwl .option.selected:after,
 app-header > .contentWrapper .navigation--bDmgwl .option:hover:after {
     width: 100%;
     left: 0;
@@ -3187,7 +3187,7 @@ app-header > .contentWrapper .navigation--bDmgwl .option:hover:after {
 }
 
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu {
     display: none;
     position: absolute;
     margin: 0 auto;
@@ -3201,17 +3201,17 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
 
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before {
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:after,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:before {
     content: ""
 }
 
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon span,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:after,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu span {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
@@ -3223,24 +3223,24 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
 }
 
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before {
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:before {
     top: 0
 }
 
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon span,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu span {
     top: 8px
 }
 
 app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after {
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu:after {
     top: 16px
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:after,
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:before {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active,
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active:before {
     border-top: 4px solid #1c1b1e;
     top: 8px;
     -webkit-backface-visibility: hidden;
@@ -3248,18 +3248,18 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhf
     transition: .3s
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:before,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:before {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active:before {
     transform: rotate(45deg)
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P span,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P span {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active span,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active span {
     opacity: 0
 }
 
-app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:after,
-app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:after {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu.active {
     transform: rotate(-45deg)
 }
 
@@ -3268,38 +3268,38 @@ app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhf
         display:none
     }
 
-    app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
+    app-header > .contentWrapper .navigation--bDmgwl .mobileMenu {
         display: inline-block
     }
 }
 
-app-header > .contentWrapper.show-EsTl3vS:before {
+app-header > .contentWrapper.show:before {
     opacity: .6
 }
 
-/* .desktop .contentWrapper-wtsxzhi.show-EsTl3vS .ticketButton-3xebwHG:hover:after {
+/* .desktop .contentWrapper-wtsxzhi.show .ticketButton:hover:after {
     left: 0;
     right: auto;
     width: 100%!important
 } */
-app-header > .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover:after {
+app-header > .contentWrapper.show .ticketButton:hover:after {
     left: 0;
     right: auto;
     width: 100%!important
 }
 
-/* .desktop .contentWrapper-wtsxzhi.show-EsTl3vS .ticketButton-3xebwHG:hover span {
+/* .desktop .contentWrapper-wtsxzhi.show .ticketButton:hover span {
     transform: none
 } */
-app-header > .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover span {
+app-header > .contentWrapper.show .ticketButton:hover span {
     transform: none
 }
 
-/* .desktop .contentWrapper-wtsxzhi.show-EsTl3vS .ticketButton-3xebwHG:hover .ticketIcon-2IdhJao {
+/* .desktop .contentWrapper-wtsxzhi.show .ticketButton:hover .ticketIcon {
     transform: none;
     opacity: 1
 } */
-app-header > .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover .ticketIcon-2IdhJao {
+app-header > .contentWrapper.show .ticketButton:hover .ticketIcon {
     transform: none;
     opacity: 1
 }
@@ -3397,16 +3397,16 @@ app-header > .contentWrapper .navigationList .socialWrapper .menuTitle {
     top: 9.8vh
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper {
     position: relative
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer {
     position: relative;
     width: 100%
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer .ticketButtonWrapper {
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -3416,7 +3416,7 @@ app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-
     transition-delay: .7s
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer .ticketButtonWrapper .ticketButton {
     position: relative;
     width: 240px;
     height: 80px;
@@ -3429,7 +3429,7 @@ app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-
     color: #fff
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG span {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer .ticketButtonWrapper .ticketButton span {
     display: block;
     text-align: left;
     padding: 0 30px;
@@ -3438,7 +3438,7 @@ app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-
     box-sizing: border-box
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG .ticketIcon-2IdhJao {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer .ticketButtonWrapper .ticketButton .ticketIcon {
     position: absolute;
     width: 150px;
     height: 80px;
@@ -3450,7 +3450,7 @@ app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-
     padding-left: 0
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList-3sAXafP {
     position: relative;
     display: inline-block;
     left: 50%;
@@ -3460,19 +3460,19 @@ app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-
     grid-template-columns: 50% 50%
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList-3sAXafP a {
     display: inline-block;
     margin: 0 auto
 }
 
-app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a .icon-2ZObslW {
+app-header > .contentWrapper .navigationList .socialWrapper .innerSocialWrapper .socialList-3sAXafP a .icon-2ZObslW {
     position: relative;
     width: 25px;
     display: inline-block;
     margin: 0 auto
 }
 
-app-header > .contentWrapper .ticketButton-3xebwHG {
+app-header > .contentWrapper .ticketButton {
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -3492,7 +3492,7 @@ app-header > .contentWrapper .ticketButton-3xebwHG {
     color: inherit
 }
 
-app-header > .contentWrapper .ticketButton-3xebwHG span {
+app-header > .contentWrapper .ticketButton span {
     position: relative;
     display: block;
     z-index: 1;
@@ -3501,7 +3501,7 @@ app-header > .contentWrapper .ticketButton-3xebwHG span {
     top: 1px
 }
 
-app-header > .contentWrapper .ticketButton-3xebwHG .ticketIcon-2IdhJao {
+app-header > .contentWrapper .ticketButton .ticketIcon {
     position: absolute;
     top: 0;
     left: 0;
@@ -3512,15 +3512,15 @@ app-header > .contentWrapper .ticketButton-3xebwHG .ticketIcon-2IdhJao {
     transition: all .5s ease-out
 }
 
-app-header > .contentWrapper .ticketButton-3xebwHG:before {
+app-header > .contentWrapper .ticketButton:before {
     left: 0;
     -webkit-clip-path: polygon(0 100%,4px 100%,4px 4px,146px 4px,146px 36px,4px 36px,4px 100%,100% 100%,100% 0,0 0);
     clip-path: polygon(0 100%,4px 100%,4px 4px,146px 4px,146px 36px,4px 36px,4px 100%,100% 100%,100% 0,0 0);
     animation: gradient-1ziY361 3s ease-in-out infinite,border-3sN0nhJ 1s forwards ease-in-out reverse
 }
 
-app-header > .contentWrapper .ticketButton-3xebwHG:after,
-app-header > .contentWrapper .ticketButton-3xebwHG:before {
+app-header > .contentWrapper .ticketButton:after,
+app-header > .contentWrapper .ticketButton:before {
     content: "";
     position: absolute;
     top: 0;
@@ -3530,7 +3530,7 @@ app-header > .contentWrapper .ticketButton-3xebwHG:before {
     background-size: 400% 400%
 }
 
-app-header > .contentWrapper .ticketButton-3xebwHG:after {
+app-header > .contentWrapper .ticketButton:after {
     right: 0;
     width: 100%;
     animation: gradient-1ziY361 3s ease-in-out infinite;
@@ -3538,12 +3538,12 @@ app-header > .contentWrapper .ticketButton-3xebwHG:after {
     z-index: 0
 }
 
-app-header > .contentWrapper .ticketButton-3xebwHG.show-EsTl3vS {
+app-header > .contentWrapper .ticketButton.show {
     opacity: 1
 }
 
 @media (max-width: 768px) {
-    app-header.contentWrapper .ticketButton-3xebwHG {
+    app-header.contentWrapper .ticketButton {
         position:absolute;
         top: 10px;
         right: 0;
@@ -3577,7 +3577,7 @@ app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper 
     bottom: 0
 }
 
-app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper .innerSocialWrapper .ticketButtonContainer .ticketButtonWrapper {
     width: 100%
 }
 
@@ -3588,7 +3588,7 @@ app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper 
     }
 
     app-header > .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
-    app-header > .contentWrapper .logos-3AHXqkR .logofl-1hfuCa0 {
+    app-header > .contentWrapper .logos-3AHXqkR .logofl {
         width: 40px;
         height: 45px
     }
@@ -3621,7 +3621,7 @@ app-header > .contentWrapper.menuVisible-15guaqL .navigationList .socialWrapper 
     }
 
     app-header > .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
-    app-header > .contentWrapper .logos-3AHXqkR .logofl-1hfuCa0 {
+    app-header > .contentWrapper .logos-3AHXqkR .logofl {
         width: 40px;
         height: 45px;
         display: none
