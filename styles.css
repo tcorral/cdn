@@ -7,6 +7,33 @@ body {
 .hidden {
     display: none;
 }
+app-root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+app-header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+app-header {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #000;
+    opacity: 0;
+    width: 100%;
+    padding: 40px 0;
+    z-index: -2;
+    transition: opacity .35s ease-out;
+}
+
 .logoMain {
     position: absolute;
     width: 50px;
@@ -80,22 +107,4 @@ body {
     border-radius: 7px;
     top: 16px;
     content: "";
-}
-app-header {
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 3;
-    width: 100%;
-}
-app-header {
-    content: "";
-    display: block;
-    position: absolute;
-    background: #000;
-    opacity: 0;
-    width: 100%;
-    padding: 40px 0;
-    z-index: -2;
-    transition: opacity .35s ease-out;
 }
