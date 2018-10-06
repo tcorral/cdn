@@ -2947,6 +2947,9 @@ app-header .contentWrapper .leftMenu .logoMain .logo {
     background-repeat: no-repeat;
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
+app-header .contentWrapper .leftMenu .logoMain .logo span {
+    display: block;
+}
 
 app-header .contentWrapper .leftMenu .dropdown-1p2nsDj {
     position: absolute;
