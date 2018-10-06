@@ -14,7 +14,11 @@
       "url": "https://www.eventbrite.co.uk/e/angular-nl-2019-tickets-49948041938"
     }
   },
-  "wp": "https://passionatepeople.io/wp/wp-json/wp/v2/posts?categories=",
+  "wp": {
+    "protocol": "https://",
+    "domain": "passionatepeople.io",
+    "categories_api": "/wp/wp-json/wp/v2/posts?categories="
+  },
   "categories": {
     "mission": "56",
     "speakers": "55",
