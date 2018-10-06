@@ -2893,10 +2893,6 @@ app-header > .contentWrapper .burgerIcon.active span {
     opacity: 0
 }
 
-app-header > .contentWrapper .burgerIcon.active {
-    transform: rotate(-45deg)
-}
-
 app-header > .contentWrapper .burgerIcon:hover {
     opacity: .7
 }
