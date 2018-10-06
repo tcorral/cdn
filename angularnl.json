@@ -6,6 +6,11 @@
     "url": "https://www.angularnl.com",
     "date": "8TH MARCH",
     "year": "2019",
+    "background": {
+      "type": "video",
+      "url": "content/landing-video.mp4",
+      "logo": "test"
+    },
     "contact": {
       "label": "Contact us",
       "url": "mailto:info@frontenddeveloperlove.com"
