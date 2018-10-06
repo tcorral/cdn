@@ -1294,6 +1294,10 @@ app-speakers > .contentWrapper .noise {
     display: block
 }
 
+app-speakers > .contentWrapper .background {
+    background: url(images/venue/venue.gif);
+}
+
 app-speakers > .contentWrapper .innerContentWrapperHeader {
     width: 100%;
     display: -ms-flexbox;
