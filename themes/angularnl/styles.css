@@ -1144,7 +1144,7 @@ app-mission > .contentWrapper .copyWrapper .readMoreCta:hover .shape {
     stroke-dashoffset: 0
 }
 
-app-mission > .contentWrapper .header-image {
+app-mission > .scroll-section .header-section h2 span {
     background-image: url('images/headers/mission.png');
 }
 
