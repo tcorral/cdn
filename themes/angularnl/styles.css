@@ -924,7 +924,7 @@ p {
     }
 }
 
-.contentWrapper-JBwqeuI .background-2qdgnh6 {
+app-landing-background > .contentWrapper .background {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -934,7 +934,7 @@ p {
     object-fit: cover
 }
 
-.contentWrapper-JBwqeuI .backgroundMobile-28YSCpt {
+app-landing-background > .contentWrapper .backgroundMobile {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -944,7 +944,7 @@ p {
     top: 0
 }
 
-.contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div {
+app-landing-background > .contentWrapper.image .background div {
     position: absolute;
     top: 0;
     left: 0;
@@ -953,11 +953,11 @@ p {
     background-size: cover
 }
 
-.contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:first-child {
+app-landing-background > .contentWrapper.image .background div:first-child {
     background-image: url(images/gradientsteps-28.d33663f.png)
 }
 
-.contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(2) {
+app-landing-background > .contentWrapper.image .background div:nth-child(2) {
     background-image: url(images/gradientsteps-29.f182db2.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
@@ -966,7 +966,7 @@ p {
     animation-delay: 6s
 }
 
-.contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(3) {
+app-landing-background > .contentWrapper.image .background div:nth-child(3) {
     background-image: url(images/gradientsteps-30.2a4ab43.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
@@ -975,7 +975,7 @@ p {
     animation-delay: 4s
 }
 
-.contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(4) {
+app-landing-background > .contentWrapper.image .background div:nth-child(4) {
     background-image: url(images/gradientsteps-31.3a2a1d1.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
@@ -984,7 +984,7 @@ p {
     animation-delay: 2s
 }
 
-.contentWrapper-JBwqeuI.image-1sZcPF3 .background-2qdgnh6 div:nth-child(5) {
+app-landing-background > .contentWrapper.image .background div:nth-child(5) {
     background-image: url(images/gradientsteps-32.434c373.png);
     animation-name: animation-fade-1CfE7EX;
     animation-duration: 2s;
@@ -992,7 +992,7 @@ p {
     animation-direction: alternate
 }
 
-.contentWrapper-JBwqeuI.video-2gs8Ucl:after {
+app-landing-background > .contentWrapper.video:after {
     content: "";
     display: block;
     position: absolute;
@@ -1003,11 +1003,11 @@ p {
     top: 0
 }
 
-.contentWrapper-JBwqeuI.video-2gs8Ucl.mobile-2p6OsVJ:after {
+app-landing-background > .contentWrapper.video.mobile:after {
     opacity: .5
 }
 
-.contentWrapper-JBwqeuI .logoContainer-yA0nHYl {
+app-landing-background > .contentWrapper .logoContainer {
     position: absolute;
     width: 60%;
     height: 800px;
@@ -1017,7 +1017,7 @@ p {
     perspective: 1000px
 }
 
-.contentWrapper-JBwqeuI .logoContainer-yA0nHYl .logo-3_tp_XM {
+app-landing-background > .contentWrapper .logoContainer .logo {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1028,7 +1028,7 @@ p {
 }
 
 @media (max-width: 1440px) {
-    .contentWrapper-JBwqeuI .logoContainer-yA0nHYl {
+    app-landing-background > .contentWrapper .logoContainer {
         max-width:700px
     }
 }
