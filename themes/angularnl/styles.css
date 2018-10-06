@@ -615,6 +615,10 @@ app-landing > .contentWrapper {
     opacity: 0
 }
 
+app-landing > .contentWrapper.show {
+    opacity: 1
+}
+
 app-landing > .contentWrapper .background {
     position: absolute;
     width: 100%;
