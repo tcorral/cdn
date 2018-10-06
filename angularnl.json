@@ -1,4 +1,5 @@
 {
+  "theme": "https://cdn.rawgit.com/tcorral/cdn/gh-pages/styles.css",
   "event": {
     "name": "Angular NL",
     "city": "AMSTERDAM",
@@ -33,7 +34,7 @@
         "silver": "45",
         "bronze": "46",
         "partnership": "47"
-      }, 
+      }
     }
   },
   "footer": {
@@ -97,9 +98,5 @@
         }
       ]
     }
-  },
-  "theme": {
-    "name": "test",
-    "url": "https://cdn.rawgit.com/tcorral/cdn/gh-pages/styles.css"
   }
 }
