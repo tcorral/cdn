@@ -2949,7 +2949,7 @@ app-header > .contentWrapper .leftMenu .logoMain .logo {
     display: block;
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj {
+app-header > .contentWrapper .leftMenu .dropdown {
     position: absolute;
     top: 0;
     left: 0;
@@ -2959,7 +2959,7 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj {
     overflow: hidden
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj:before {
+app-header > .contentWrapper .leftMenu .dropdown:before {
     content: "";
     display: block;
     position: absolute;
@@ -2970,26 +2970,26 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj:before {
     background: #fff
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj.show-EsTl3vS {
+app-header > .contentWrapper .leftMenu .dropdown.show-EsTl3vS {
     height: 350px
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy {
+app-header > .contentWrapper .leftMenu .dropdown .intro {
     position: relative;
     padding: 60px 20px 0 28px
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy .header-2kITdN8 {
+app-header > .contentWrapper .leftMenu .dropdown .intro .header {
     font: 16px/1.1em Muli-ExtraBold
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy .subheader-3g_Z3Z5 {
+app-header > .contentWrapper .leftMenu .dropdown .intro .subheader {
     font: 10px/1.1em Muli-Light;
     padding: 10px 0 20px;
     opacity: .7
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy:after {
+app-header > .contentWrapper .leftMenu .dropdown .intro:after {
     content: "";
     display: block;
     position: absolute;
@@ -2997,14 +2997,14 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy:after {
     height: 1px
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent {
     position: relative;
     width: 100%;
     left: 0;
     transition: max-height .35s ease-in-out
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a {
     display: block;
     padding: 20px 28px;
     text-decoration: none;
@@ -3013,7 +3013,7 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZT
     cursor: pointer
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a span {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a span {
     display: inline-block;
     width: 60%;
     font: 12px/1.5em Muli-Bold;
@@ -3024,7 +3024,7 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZT
     transition: opacity .25s ease-in-out,left .5s ease-in-out
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure {
     margin: 0;
     width: 35px;
     height: 35px;
@@ -3032,7 +3032,7 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZT
     vertical-align: middle
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logofl-1hfuCa0 {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logofl-1hfuCa0 {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3042,15 +3042,15 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZT
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logofl-1hfuCa0:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.logofl-1hfuCa0:hover {
     transform: scale(.9)
 } */
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logofl-1hfuCa0:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logofl-1hfuCa0:hover {
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logoVuejs-388gfXg {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3060,14 +3060,14 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZT
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.logoVuejs-388gfXg:hover {
     transform: scale(.9)
 } */
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logoVuejs-388gfXg:hover {
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logo {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3077,64 +3077,64 @@ app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZT
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.logo:hover {
     transform: scale(.9)
 } */
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.logo:hover {
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.roadTrip-1kpIHHI {
     margin: 0;
     width: 50px;
     height: 50px;
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a figure.roadTrip-1kpIHHI:hover {
     transform: scale(.9)
 } */
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a figure.roadTrip-1kpIHHI:hover {
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3 {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3 {
     width: 40px;
     padding: 0 2px;
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3 svg path {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3 svg path {
     fill: #3b6aff
 }
 
-/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3:hover {
+/* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3:hover {
     transform: scale(.9)
 } */
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a .countryVisual-LOtgKe3:hover {
     transform: scale(.9)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a:hover {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a:hover {
     transform: translateX(20px)
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a:hover span {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a:hover span {
     opacity: 1
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a.selected-2sUht59 span {
+app-header > .contentWrapper .leftMenu .dropdown .dropdownContent a.selected-2sUht59 span {
     text-decoration: underline;
     opacity: 1
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj:hover {
+app-header > .contentWrapper .leftMenu .dropdown:hover {
     background: #fff;
     transition: all .05s ease-out;
     transition-delay: 0s
 }
 
-app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj:hover .dropdownContent-3nRoZTR {
+app-header > .contentWrapper .leftMenu .dropdown:hover .dropdownContent {
     max-height: 350px
 }
 
