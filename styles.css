@@ -16,10 +16,14 @@ body {
     top: 12.5px;
 }
 @media (min-width: 769px) {
-    margin: 0 0 0 70px;
+    .logoMain {
+        margin: 0 0 0 70px;
+    }
 }
 @media (max-width: 768px) {
-    left: 10px;
+    .logoMain {
+        left: 10px;
+    }
 }
 .logoMain .logo {
     margin: 0;
