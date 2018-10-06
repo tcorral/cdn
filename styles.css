@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
 }
+html {
+    line-height: 1.15;
+}
 body {
     display: block;
+    margin: 0;
 }
 .hidden {
     display: none;
@@ -14,15 +18,12 @@ app-root {
     overflow: hidden;
     background: #fff;
 }
-app-header {
+app-header > .contentWrapper {
     position: fixed;
     right: 0;
     top: 0;
     z-index: 3;
     width: 100%;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-}
-app-header > .contentWrapper {
     opacity: 0;
     transition: opacity .35s ease-out;
 }
@@ -31,13 +32,17 @@ app-header > .contentWrapper:before {
     display: block;
     position: absolute;
     background: #000;
+    opacity: 0;
     width: 100%;
     padding: 40px 0;
     z-index: -2;
+    transition: opacity .35s ease-out;
 }
 
-app-header > .contentWrapper.show {
+app-header > .contentWrapper.show:before {
     opacity: 1;
+    --color-main: #d34f48;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .logoMain {
