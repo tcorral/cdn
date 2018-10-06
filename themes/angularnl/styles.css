@@ -3155,10 +3155,7 @@ app-header > .contentWrapper .navigation .option{
     display: table-cell;
     vertical-align: middle;
     top: 2.5px;
-    cursor: pointer
-}
-
-app-header > .contentWrapper .navigation .option a{
+    cursor: pointer;
     font: 12px/1em Muli-Regular;
     text-decoration: none;
     color: #fff;
@@ -3183,7 +3180,7 @@ app-header > .contentWrapper .navigation .option:after {
     transition: all .35s cubic-bezier(1,0,0,1)
 } */
 app-header > .contentWrapper .navigation .option.selected:after,
-app-header > .contentWrapper .navigation .option a:hover:after {
+app-header > .contentWrapper .navigation .option:hover:after {
     width: 100%;
     left: 0;
     right: 0;
