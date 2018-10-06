@@ -3460,7 +3460,7 @@ app-header > .contentWrapper .ticketButton {
     opacity: 0;
     transition: all .35s ease-out;
     cursor: pointer;
-    color: inherit;
+    color: white;
 }
 
 app-header > .contentWrapper .ticketButton span {
