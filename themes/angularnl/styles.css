@@ -2873,12 +2873,20 @@ app-header > .contentWrapper .burgerIcon span {
 }
 
 app-header > .contentWrapper .burgerIcon:after {
-    top: 16px
+    top: 16px;
 }
 
-app-header > .contentWrapper .burgerIcon.active:before {
+app-header > .contentWrapper .burgerIcon.active:before{
     border-top: 4px solid #1c1b1e;
     top: 8px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: .3s
+}
+
+app-header > .contentWrapper .burgerIcon.active:after {
+    border-top: 4px solid #1c1b1e;
+    top: 16px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: .3s
