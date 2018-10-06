@@ -22,17 +22,18 @@ app-header {
     width: 100%;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
-
 app-header > .contentWrapper {
+    opacity: 0;
+    transition: opacity .35s ease-out;
+}
+app-header > .contentWrapper:before {
     content: "";
     display: block;
     position: absolute;
     background: #000;
-    opacity: 0;
     width: 100%;
     padding: 40px 0;
     z-index: -2;
-    transition: opacity .35s ease-out;
 }
 
 app-header > .contentWrapper.show {
