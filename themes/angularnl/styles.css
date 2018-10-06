@@ -2805,7 +2805,7 @@ app-root .overlay {
     }
 }
 
-app-header .contentWrapper {
+app-header > .contentWrapper {
     position: fixed;
     right: 0;
     top: 0;
@@ -2813,7 +2813,7 @@ app-header .contentWrapper {
     width: 100%
 }
 
-app-header .contentWrapper:before {
+app-header > .contentWrapper:before {
     content: "";
     display: block;
     position: absolute;
@@ -2825,7 +2825,7 @@ app-header .contentWrapper:before {
     transition: opacity .35s ease-out
 }
 
-app-header .contentWrapper .burgerIcon {
+app-header > .contentWrapper .burgerIcon {
     position: absolute;
     margin: 0 auto;
     width: 55px;
@@ -2838,19 +2838,19 @@ app-header .contentWrapper .burgerIcon {
 }
 
 @media (min-width: 769px) {
-    app-header .contentWrapper .burgerIcon {
+    app-header > .contentWrapper .burgerIcon {
         display:block
     }
 }
 
-app-header .contentWrapper .burgerIcon:after,
-app-header .contentWrapper .burgerIcon:before {
+app-header > .contentWrapper .burgerIcon:after,
+app-header > .contentWrapper .burgerIcon:before {
     content: ""
 }
 
-app-header .contentWrapper .burgerIcon:after,
-app-header .contentWrapper .burgerIcon:before,
-app-header .contentWrapper .burgerIcon span {
+app-header > .contentWrapper .burgerIcon:after,
+app-header > .contentWrapper .burgerIcon:before,
+app-header > .contentWrapper .burgerIcon span {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
@@ -2861,20 +2861,20 @@ app-header .contentWrapper .burgerIcon span {
     border-radius: 7px
 }
 
-app-header .contentWrapper .burgerIcon:before {
+app-header > .contentWrapper .burgerIcon:before {
     top: 0
 }
 
-app-header .contentWrapper .burgerIcon span {
+app-header > .contentWrapper .burgerIcon span {
     top: 8px
 }
 
-app-header .contentWrapper .burgerIcon:after {
+app-header > .contentWrapper .burgerIcon:after {
     top: 16px
 }
 
-app-header .contentWrapper .burgerIcon.active-3bhfT-P:after,
-app-header .contentWrapper .burgerIcon.active-3bhfT-P:before {
+app-header > .contentWrapper .burgerIcon.active-3bhfT-P:after,
+app-header > .contentWrapper .burgerIcon.active-3bhfT-P:before {
     border-top: 4px solid #1c1b1e;
     top: 8px;
     -webkit-backface-visibility: hidden;
@@ -2882,27 +2882,27 @@ app-header .contentWrapper .burgerIcon.active-3bhfT-P:before {
     transition: .3s
 }
 
-app-header .contentWrapper .burgerIcon.active-3bhfT-P:before {
+app-header > .contentWrapper .burgerIcon.active-3bhfT-P:before {
     transform: rotate(45deg)
 }
 
-app-header .contentWrapper .burgerIcon.active-3bhfT-P span {
+app-header > .contentWrapper .burgerIcon.active-3bhfT-P span {
     opacity: 0
 }
 
-app-header .contentWrapper .burgerIcon.active-3bhfT-P:after {
+app-header > .contentWrapper .burgerIcon.active-3bhfT-P:after {
     transform: rotate(-45deg)
 }
 
-app-header .contentWrapper .burgerIcon:hover {
+app-header > .contentWrapper .burgerIcon:hover {
     opacity: .7
 }
 
-app-header .contentWrapper .leftMenu {
+app-header > .contentWrapper .leftMenu {
     position: absolute
 }
 
-app-header .contentWrapper .leftMenu .burgerIcon {
+app-header > .contentWrapper .leftMenu .burgerIcon {
     width: 50px;
     height: 50px;
     top: 25px;
@@ -2912,12 +2912,12 @@ app-header .contentWrapper .leftMenu .burgerIcon {
 }
 
 @media (max-width: 768px) {
-    app-header .contentWrapper .leftMenu .burgerIcon {
+    app-header > .contentWrapper .leftMenu .burgerIcon {
         display:none
     }
 }
 
-app-header .contentWrapper .leftMenu .logoMain {
+app-header > .contentWrapper .leftMenu .logoMain {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -2927,18 +2927,18 @@ app-header .contentWrapper .leftMenu .logoMain {
 }
 
 @media (min-width: 769px) {
-    app-header .contentWrapper .leftMenu .logoMain {
+    app-header > .contentWrapper .leftMenu .logoMain {
         margin:0 0 0 70px
     }
 }
 
 @media (max-width: 768px) {
-    app-header .contentWrapper .leftMenu .logoMain {
+    app-header > .contentWrapper .leftMenu .logoMain {
         left:10px
     }
 }
 
-app-header .contentWrapper .leftMenu .logoMain .logo {
+app-header > .contentWrapper .leftMenu .logoMain .logo {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -2947,11 +2947,11 @@ app-header .contentWrapper .leftMenu .logoMain .logo {
     background-repeat: no-repeat;
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
-app-header .contentWrapper .leftMenu .logoMain .logo span {
+app-header > .contentWrapper .leftMenu .logoMain .logo span {
     display: block;
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj {
     position: absolute;
     top: 0;
     left: 0;
@@ -2961,7 +2961,7 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj {
     overflow: hidden
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj:before {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj:before {
     content: "";
     display: block;
     position: absolute;
@@ -2972,26 +2972,26 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj:before {
     background: #fff
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj.show-EsTl3vS {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj.show-EsTl3vS {
     height: 350px
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy {
     position: relative;
     padding: 60px 20px 0 28px
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy .header-2kITdN8 {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy .header-2kITdN8 {
     font: 16px/1.1em Muli-ExtraBold
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy .subheader-3g_Z3Z5 {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy .subheader-3g_Z3Z5 {
     font: 10px/1.1em Muli-Light;
     padding: 10px 0 20px;
     opacity: .7
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy:after {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy:after {
     content: "";
     display: block;
     position: absolute;
@@ -2999,14 +2999,14 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .intro-1PqceAy:after {
     height: 1px
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR {
     position: relative;
     width: 100%;
     left: 0;
     transition: max-height .35s ease-in-out
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a {
     display: block;
     padding: 20px 28px;
     text-decoration: none;
@@ -3015,7 +3015,7 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR 
     cursor: pointer
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a span {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a span {
     display: inline-block;
     width: 60%;
     font: 12px/1.5em Muli-Bold;
@@ -3026,7 +3026,7 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR 
     transition: opacity .25s ease-in-out,left .5s ease-in-out
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure {
     margin: 0;
     width: 35px;
     height: 35px;
@@ -3034,7 +3034,7 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR 
     vertical-align: middle
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logofl-1hfuCa0 {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logofl-1hfuCa0 {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3048,11 +3048,11 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR 
     transform: scale(.9)
 } */
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logofl-1hfuCa0:hover {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logofl-1hfuCa0:hover {
     transform: scale(.9)
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3065,11 +3065,11 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR 
 /* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg:hover {
     transform: scale(.9)
 } */
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg:hover {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logoVuejs-388gfXg:hover {
     transform: scale(.9)
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3082,11 +3082,11 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR 
 /* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo:hover {
     transform: scale(.9)
 } */
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo:hover {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.logo:hover {
     transform: scale(.9)
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI {
     margin: 0;
     width: 50px;
     height: 50px;
@@ -3096,51 +3096,51 @@ app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR 
 /* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI:hover {
     transform: scale(.9)
 } */
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI:hover {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a figure.roadTrip-1kpIHHI:hover {
     transform: scale(.9)
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3 {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3 {
     width: 40px;
     padding: 0 2px;
     transition: all .25s cubic-bezier(0,0,.2,1)
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3 svg path {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3 svg path {
     fill: #3b6aff
 }
 
 /* .desktop .contentWrapper-wtsxzhi .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3:hover {
     transform: scale(.9)
 } */
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3:hover {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a .countryVisual-LOtgKe3:hover {
     transform: scale(.9)
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a:hover {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a:hover {
     transform: translateX(20px)
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a:hover span {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a:hover span {
     opacity: 1
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a.selected-2sUht59 span {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj .dropdownContent-3nRoZTR a.selected-2sUht59 span {
     text-decoration: underline;
     opacity: 1
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj:hover {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj:hover {
     background: #fff;
     transition: all .05s ease-out;
     transition-delay: 0s
 }
 
-app-header .contentWrapper .leftMenu .dropdown-1p2nsDj:hover .dropdownContent-3nRoZTR {
+app-header > .contentWrapper .leftMenu .dropdown-1p2nsDj:hover .dropdownContent-3nRoZTR {
     max-height: 350px
 }
 
-app-header .contentWrapper .navigation--bDmgwl {
+app-header > .contentWrapper .navigation--bDmgwl {
     position: absolute;
     right: 0;
     padding: 20px 0;
@@ -3149,7 +3149,7 @@ app-header .contentWrapper .navigation--bDmgwl {
     display: table
 }
 
-app-header .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
+app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
     font: 12px/1em Muli-Regular;
     text-decoration: none;
     padding: 0 20px;
@@ -3162,7 +3162,7 @@ app-header .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
     cursor: pointer
 }
 
-app-header .contentWrapper .navigation--bDmgwl .option-31ZV8jH:after {
+app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH:after {
     content: "";
     display: block;
     position: relative;
@@ -3180,16 +3180,16 @@ app-header .contentWrapper .navigation--bDmgwl .option-31ZV8jH:after {
     right: 0;
     transition: all .35s cubic-bezier(1,0,0,1)
 } */
-app-header .contentWrapper .navigation--bDmgwl .option-31ZV8jH.selected-2sUht59:after,
-app-header .contentWrapper .navigation--bDmgwl .option-31ZV8jH:hover:after {
+app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH.selected-2sUht59:after,
+app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH:hover:after {
     width: 100%;
     left: 0;
     right: 0;
     transition: all .35s cubic-bezier(1,0,0,1)
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
     display: none;
     position: absolute;
     margin: 0 auto;
@@ -3201,19 +3201,19 @@ app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
     top: 100%
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon:after,
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before {
     content: ""
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon:after,
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon span,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon span,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
@@ -3224,25 +3224,25 @@ app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
     border-radius: 7px
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon:before,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:before {
     top: 0
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon span,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon span,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE span {
     top: 8px
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon:after,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon:after,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE:after {
     top: 16px
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:after,
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:before,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:after,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:before {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:after,
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:after,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:before {
     border-top: 4px solid #1c1b1e;
     top: 8px;
     -webkit-backface-visibility: hidden;
@@ -3250,32 +3250,32 @@ app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-
     transition: .3s
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:before,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:before {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:before,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:before {
     transform: rotate(45deg)
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P span,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P span {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P span,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P span {
     opacity: 0
 }
 
-app-header .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:after,
-app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:after {
+app-header > .contentWrapper .navigation--bDmgwl .burgerIcon.active-3bhfT-P:after,
+app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE.active-3bhfT-P:after {
     transform: rotate(-45deg)
 }
 
 @media (max-width: 768px) {
-    app-header .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
+    app-header > .contentWrapper .navigation--bDmgwl .option-31ZV8jH {
         display:none
     }
 
-    app-header .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
+    app-header > .contentWrapper .navigation--bDmgwl .mobileMenu-2jK1qXE {
         display: inline-block
     }
 }
 
-app-header .contentWrapper.show-EsTl3vS:before {
+app-header > .contentWrapper.show-EsTl3vS:before {
     opacity: .6
 }
 
@@ -3284,7 +3284,7 @@ app-header .contentWrapper.show-EsTl3vS:before {
     right: auto;
     width: 100%!important
 } */
-app-header .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover:after {
+app-header > .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover:after {
     left: 0;
     right: auto;
     width: 100%!important
@@ -3293,7 +3293,7 @@ app-header .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover:after {
 /* .desktop .contentWrapper-wtsxzhi.show-EsTl3vS .ticketButton-3xebwHG:hover span {
     transform: none
 } */
-app-header .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover span {
+app-header > .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover span {
     transform: none
 }
 
@@ -3301,12 +3301,12 @@ app-header .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover span {
     transform: none;
     opacity: 1
 } */
-app-header .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover .ticketIcon-2IdhJao {
+app-header > .contentWrapper.show-EsTl3vS .ticketButton-3xebwHG:hover .ticketIcon-2IdhJao {
     transform: none;
     opacity: 1
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh {
+app-header > .contentWrapper .navigationList-iEe5Uyh {
     position: absolute;
     display: -ms-flexbox;
     display: flex;
@@ -3319,7 +3319,7 @@ app-header .contentWrapper .navigationList-iEe5Uyh {
     transform: opacity .35s ease-out
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY {
+app-header > .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY {
     display: block;
     position: absolute;
     transform: rotate(-90deg);
@@ -3329,11 +3329,11 @@ app-header .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY {
     color: var(--color-main)
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY span {
+app-header > .contentWrapper .navigationList-iEe5Uyh .menuTitle-3UqMSIY span {
     font: 18px/1.1em Muli-Regular
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ {
+app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ {
     position: relative;
     display: inline-block;
     -ms-flex-preferred-size: 0;
@@ -3344,12 +3344,12 @@ app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ 
     left: 13%
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK {
+app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK {
     display: block;
     padding: 3% 0
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK .option-31ZV8jH {
+app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK .option-31ZV8jH {
     display: inline-block;
     font: 32px/1em Pt-narrowBold;
     color: #1c1b1e;
@@ -3365,23 +3365,23 @@ app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ 
     text-transform: uppercase
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:first-child .option-31ZV8jH {
+app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:first-child .option-31ZV8jH {
     transition-delay: .1s
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(2) .option-31ZV8jH {
+app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(2) .option-31ZV8jH {
     transition-delay: .2s
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(3) .option-31ZV8jH {
+app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(3) .option-31ZV8jH {
     transition-delay: .3s
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(4) .option-31ZV8jH {
+app-header > .contentWrapper .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK:nth-child(4) .option-31ZV8jH {
     transition-delay: .4s
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
     position: relative;
     width: 100%;
     bottom: -50%;
@@ -3395,20 +3395,20 @@ app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
     transition-delay: .4s
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .menuTitle-3UqMSIY {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .menuTitle-3UqMSIY {
     top: 9.8vh
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 {
     position: relative
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg {
     position: relative;
     width: 100%
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -3418,7 +3418,7 @@ app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inner
     transition-delay: .7s
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG {
     position: relative;
     width: 240px;
     height: 80px;
@@ -3431,7 +3431,7 @@ app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inner
     color: #fff
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG span {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG span {
     display: block;
     text-align: left;
     padding: 0 30px;
@@ -3440,7 +3440,7 @@ app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inner
     box-sizing: border-box
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG .ticketIcon-2IdhJao {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i .ticketButton-3xebwHG .ticketIcon-2IdhJao {
     position: absolute;
     width: 150px;
     height: 80px;
@@ -3452,7 +3452,7 @@ app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inner
     padding-left: 0
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP {
     position: relative;
     display: inline-block;
     left: 50%;
@@ -3462,19 +3462,19 @@ app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .inner
     grid-template-columns: 50% 50%
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a {
     display: inline-block;
     margin: 0 auto
 }
 
-app-header .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a .icon-2ZObslW {
+app-header > .contentWrapper .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .socialList-3sAXafP a .icon-2ZObslW {
     position: relative;
     width: 25px;
     display: inline-block;
     margin: 0 auto
 }
 
-app-header .contentWrapper .ticketButton-3xebwHG {
+app-header > .contentWrapper .ticketButton-3xebwHG {
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -3494,7 +3494,7 @@ app-header .contentWrapper .ticketButton-3xebwHG {
     color: inherit
 }
 
-app-header .contentWrapper .ticketButton-3xebwHG span {
+app-header > .contentWrapper .ticketButton-3xebwHG span {
     position: relative;
     display: block;
     z-index: 1;
@@ -3503,7 +3503,7 @@ app-header .contentWrapper .ticketButton-3xebwHG span {
     top: 1px
 }
 
-app-header .contentWrapper .ticketButton-3xebwHG .ticketIcon-2IdhJao {
+app-header > .contentWrapper .ticketButton-3xebwHG .ticketIcon-2IdhJao {
     position: absolute;
     top: 0;
     left: 0;
@@ -3514,15 +3514,15 @@ app-header .contentWrapper .ticketButton-3xebwHG .ticketIcon-2IdhJao {
     transition: all .5s ease-out
 }
 
-app-header .contentWrapper .ticketButton-3xebwHG:before {
+app-header > .contentWrapper .ticketButton-3xebwHG:before {
     left: 0;
     -webkit-clip-path: polygon(0 100%,4px 100%,4px 4px,146px 4px,146px 36px,4px 36px,4px 100%,100% 100%,100% 0,0 0);
     clip-path: polygon(0 100%,4px 100%,4px 4px,146px 4px,146px 36px,4px 36px,4px 100%,100% 100%,100% 0,0 0);
     animation: gradient-1ziY361 3s ease-in-out infinite,border-3sN0nhJ 1s forwards ease-in-out reverse
 }
 
-app-header .contentWrapper .ticketButton-3xebwHG:after,
-app-header .contentWrapper .ticketButton-3xebwHG:before {
+app-header > .contentWrapper .ticketButton-3xebwHG:after,
+app-header > .contentWrapper .ticketButton-3xebwHG:before {
     content: "";
     position: absolute;
     top: 0;
@@ -3532,7 +3532,7 @@ app-header .contentWrapper .ticketButton-3xebwHG:before {
     background-size: 400% 400%
 }
 
-app-header .contentWrapper .ticketButton-3xebwHG:after {
+app-header > .contentWrapper .ticketButton-3xebwHG:after {
     right: 0;
     width: 100%;
     animation: gradient-1ziY361 3s ease-in-out infinite;
@@ -3540,7 +3540,7 @@ app-header .contentWrapper .ticketButton-3xebwHG:after {
     z-index: 0
 }
 
-app-header .contentWrapper .ticketButton-3xebwHG.show-EsTl3vS {
+app-header > .contentWrapper .ticketButton-3xebwHG.show-EsTl3vS {
     opacity: 1
 }
 
@@ -3556,52 +3556,52 @@ app-header .contentWrapper .ticketButton-3xebwHG.show-EsTl3vS {
     }
 }
 
-app-header .contentWrapper.menuVisible-15guaqL {
+app-header > .contentWrapper.menuVisible-15guaqL {
     height: 100%
 }
 
-app-header .contentWrapper.menuVisible-15guaqL:before {
+app-header > .contentWrapper.menuVisible-15guaqL:before {
     background: #f6f6f6;
     opacity: 1;
     height: 100%
 }
 
-app-header .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh {
     visibility: visible;
     opacity: 1
 }
 
-app-header .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK .option-31ZV8jH {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .innerNavigationList-3g6tJjZ .optionWrapper-1FOl_rK .option-31ZV8jH {
     background-position-x: 0
 }
 
-app-header .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .socialWrapper-16FbdSr {
     bottom: 0
 }
 
-app-header .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
+app-header > .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .socialWrapper-16FbdSr .innerSocialWrapper-slJ0Gs2 .ticketButtonContainer-24zsBlg .ticketButtonWrapper-2-l2j-i {
     width: 100%
 }
 
 @media (max-width: 1023px) {
-    app-header .contentWrapper .logos-3AHXqkR {
+    app-header > .contentWrapper .logos-3AHXqkR {
         position:absolute;
         margin: 1.4em 1rem
     }
 
-    app-header .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
-    app-header .contentWrapper .logos-3AHXqkR .logofl-1hfuCa0 {
+    app-header > .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
+    app-header > .contentWrapper .logos-3AHXqkR .logofl-1hfuCa0 {
         width: 40px;
         height: 45px
     }
 
-    app-header .contentWrapper .logos-3AHXqkR .tripleX-3LHHJaf {
+    app-header > .contentWrapper .logos-3AHXqkR .tripleX-3LHHJaf {
         height: 35px
     }
 }
 
 @media (max-width: 768px) {
-    app-header .contentWrapper:before {
+    app-header > .contentWrapper:before {
         content:"";
         display: block;
         position: absolute;
@@ -3613,23 +3613,23 @@ app-header .contentWrapper.menuVisible-15guaqL .navigationList-iEe5Uyh .socialWr
         transition: opacity .35s ease-out
     }
 
-    app-header .contentWrapper .navigation--bDmgwl {
+    app-header > .contentWrapper .navigation--bDmgwl {
         padding: 10px 0
     }
 
-    app-header .contentWrapper .logos-3AHXqkR {
+    app-header > .contentWrapper .logos-3AHXqkR {
         position: absolute;
         margin: 1em 1rem
     }
 
-    app-header .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
-    app-header .contentWrapper .logos-3AHXqkR .logofl-1hfuCa0 {
+    app-header > .contentWrapper .logos-3AHXqkR .logo-2PoSDaw,
+    app-header > .contentWrapper .logos-3AHXqkR .logofl-1hfuCa0 {
         width: 40px;
         height: 45px;
         display: none
     }
 
-    app-header .contentWrapper .logos-3AHXqkR .tripleX-3LHHJaf {
+    app-header > .contentWrapper .logos-3AHXqkR .tripleX-3LHHJaf {
         height: 35px
     }
 }
