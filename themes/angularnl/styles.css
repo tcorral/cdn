@@ -809,7 +809,7 @@ app-landing > .contentWrapper .innerContentWrapper .innerContentCopy.schedule {
 }
 
 app-landing > .contentWrapper .innerContentWrapper .scrollCtaWrapper {
-    height: 18px;
+    height: 12px;
     overflow: hidden;
     position: absolute;
     bottom: 50px;
