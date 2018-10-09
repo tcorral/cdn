@@ -9,7 +9,7 @@
     "header_color": "white",
     "background": {
       "type": "video",
-      "url": "http://tcorral.github.io/cdn/themes/angularnl/video/landing-video.mp4",
+      "url": "https://tcorral.github.io/cdn/themes/angularnl/video/landing-video.mp4",
       "logo": "test"
     },
     "contact": {
